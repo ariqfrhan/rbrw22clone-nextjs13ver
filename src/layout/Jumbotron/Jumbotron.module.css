@@ -1,0 +1,11 @@
+.stroke{
+    -webkit-text-stroke: 1px white;
+}
+
+.video::after{
+        content : '';
+        position : absolute;
+        inset : 0;
+        background : #033E50;
+        opacity : 80%;
+    }

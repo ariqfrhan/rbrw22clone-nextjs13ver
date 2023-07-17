@@ -1,0 +1,24 @@
+.a::before{
+    content: '';
+    height : 2px;
+    position : absolute;
+    bottom : 0;
+    width : 0;
+    transform : translateY(5px);
+    background : #F69534;
+    transition : ease-in .3s;
+  }
+  .a:hover::before{
+    width : 100%
+  }
+  
+  .active::before{
+    transform : translateY(5px);
+    content: '';
+    height : 2px;
+    position : absolute;
+    bottom : 0;
+    width : 100%;
+    background : #F69534;
+    transition : ease-in .3s;
+  }
